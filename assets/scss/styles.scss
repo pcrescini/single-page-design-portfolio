@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+@import 'abstracts/variables';
+@import 'base/base';
+
+.container {
+  .row {
+    h1 {
+      color: $galactic-blue;
+    }
+  }
+}
