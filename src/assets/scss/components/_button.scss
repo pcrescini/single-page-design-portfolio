@@ -1,0 +1,29 @@
+@use '../abstracts/' as *;
+
+button {
+  font-size: 1rem;
+  padding: $button-padding;
+  border-radius: $button-border-radius;
+  color: $light-cream;
+  transition: $global-transition;
+
+  &.primary {
+    border: 1px solid $primary-border;
+    background-color: $primary;
+
+    &:hover {
+      border: 1px solid $primary-border-hover;
+      background-color: $primary-hover;
+    }
+  }
+
+  &.secondary {
+    border: 1px solid $secondary-border;
+    background-color: $secondary;
+
+    &:hover {
+      border: 1px solid $secondary-border-hover;
+      background-color: $secondary-hover;
+    }
+  }
+}

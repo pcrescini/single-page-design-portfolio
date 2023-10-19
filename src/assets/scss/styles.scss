@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+@use 'abstracts' as *;
+@use 'base' as *;
+@use 'components' as *;
+
+.container {
+  .row {
+    h1 {
+      color: $light-red;
+    }
+  }
+}

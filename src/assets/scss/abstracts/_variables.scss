@@ -11,6 +11,15 @@ $light-cream: hsl(28, 100%, 97%);
 
 // Interactive Elements
 $primary: hsl(0, 0%, 1%);
+$primary-border: hsl(0, 0%, 1%);
 $primary-hover: hsl(252, 66%, 62%);
+$primary-border-hover: hsl(252, 66%, 62%);
 $secondary: hsl(7, 77%, 66%);
+$secondary-border: hsl(7, 77%, 66%);
 $secondary-hover: hsl(28, 89%, 67%);
+$secondary-border-hover: hsl(28, 89%, 67%);
+$button-padding: 14px 45px;
+$button-border-radius: 28px;
+
+// Miscellanouse
+$global-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);

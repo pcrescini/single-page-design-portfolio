@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'PlusJakartaSansRegular';
+  src: url('/src/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansItalic';
+  src: url('/src/assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 4.375rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 3.1875rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
