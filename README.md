@@ -1,6 +1,6 @@
 # Frontend Mentor - Single-page design portfolio
 
-![Design preview for the Single-page design portfolio coding challenge](/assets/images/preview.jpg)
+![Design preview for the Single-page design portfolio coding challenge](/src/assets/images/preview.jpg)
 
 ## Welcome! 👋
 
