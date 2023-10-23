@@ -1,13 +1,17 @@
 // Named Colors
 $galactic-blue: hsl(252, 66%, 62%);
 $summer-yellow: hsl(28, 89%, 67%);
-$pink: hsl(0, 78%, 79%);
+$rose-pink: hsl(0, 78%, 79%);
 $light-red: hsl(7, 77%, 66%);
-$cyan: hsl(172, 46%, 57%);
+$super-cyan: hsl(172, 46%, 57%);
 $dark-purple: hsl(314, 45%, 23%);
 $black: hsl(0, 0%, 1%);
 $medium-brown: hsl(30, 5%, 45%);
 $light-cream: hsl(28, 100%, 97%);
+$heading-color: $black;
+$text-color: $medium-brown;
+$text-color-light: $light-cream;
+$page-background: $light-cream;
 
 // Interactive Elements
 $primary: hsl(0, 0%, 1%);
@@ -23,3 +27,10 @@ $button-border-radius: 28px;
 
 // Miscellanouse
 $global-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+$regular-border-radius: 10px;
+
+// Screen Sizes
+$mobile: 375px;
+$tablet: 768px;
+$large: 1024px;
+$desktop: 1280px;

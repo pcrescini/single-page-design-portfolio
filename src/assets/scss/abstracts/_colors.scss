@@ -1,0 +1,10 @@
+@use 'abstracts/variables' as *;
+
+$colors-list: (
+  galactc-blue: $galactic-blue,
+  summer-yellow: $summer-yellow,
+  pink: $pink,
+  light-red: $light-red,
+  cyan: $cyan,
+  dark-purple: $dark-purple,
+);

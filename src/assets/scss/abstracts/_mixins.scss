@@ -1,0 +1,48 @@
+@use '../abstracts/variables' as *;
+
+$colors-list: (
+  galactc-blue: $galactic-blue,
+  summer-yellow: $summer-yellow,
+  rose-pink: $rose-pink,
+  light-red: $light-red,
+  super-cyan: $super-cyan,
+  dark-purple: $dark-purple,
+);
+
+@mixin background-color-modifiers {
+  @each $name, $variable in $colors-list {
+    &-#{$name} {
+      background-color: $variable;
+    }
+  }
+}
+
+@mixin cover-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin mobile {
+  @media only screen and (min-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media only screen and (min-width: $large) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: $desktop) {
+    @content;
+  }
+}

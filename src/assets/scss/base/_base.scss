@@ -1,4 +1,23 @@
+@use '../abstracts/' as *;
+
+html {
+  font-family: 'PlusJakartaSansRegular', sans-serif;
+  font-size: 100%;
+  color: $text-color;
+}
+
 body {
-  font-family: 'PlusJakartaSansRegular';
+  min-height: 100vh;
+  min-height: 100svh;
   font-size: 1.125rem;
+  background: $page-background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.125rem;
+  margin-bottom: 4rem;
+}
+
+.background {
+  @include background-color-modifiers;
 }
