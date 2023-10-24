@@ -1,0 +1,40 @@
+@use '../abstracts/variables' as *;
+
+.carousel-wrapper {
+  width: 100%;
+
+  .carousel {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.875rem;
+
+    li {
+      flex-grow: 1;
+    }
+
+    img {
+      width: 540px;
+      height: 360px;
+    }
+  }
+
+  .carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3.5em;
+    margin-bottom: 5.5em;
+
+    button {
+      border-radius: 50%;
+      width: 4rem;
+      height: 4rem;
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

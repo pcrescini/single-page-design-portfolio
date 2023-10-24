@@ -6,6 +6,7 @@ $light-red: hsl(7, 77%, 66%);
 $super-cyan: hsl(172, 46%, 57%);
 $dark-purple: hsl(314, 45%, 23%);
 $black: hsl(0, 0%, 1%);
+$white: hsl(0, 0%, 100%);
 $medium-brown: hsl(30, 5%, 45%);
 $light-cream: hsl(28, 100%, 97%);
 $heading-color: $black;
@@ -30,7 +31,8 @@ $global-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 $regular-border-radius: 10px;
 
 // Screen Sizes
-$mobile: 375px;
+$mobile: 480px;
 $tablet: 768px;
 $large: 1024px;
-$desktop: 1280px;
+$desktop: 1200px;
+$xlarge: 1440px;
