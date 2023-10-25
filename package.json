@@ -2,7 +2,6 @@
   "name": "frontend-mentor-single-page-design-portfolio",
   "version": "1.0.0",
   "description": "![Design preview for the Single-page design portfolio coding challenge](/assets/images/preview.jpg)",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
