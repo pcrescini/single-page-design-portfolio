@@ -61,7 +61,7 @@ One thing I've learned over my career is that while it's certainly possible to c
 
 ### Useful resources
 
-- [Kevin Powell ](https://www.youtube.com/@KevinPowell/featured) - Kevin Powell is such an awesome resource for all things CSS related.
+- [Kevin Powell](https://www.youtube.com/@KevinPowell/featured) - Kevin Powell is such an awesome resource for all things CSS related.
 - [Sass](https://sass-lang.com/) - One of the best advice I ever received regarding web development is to always read the docs. 😉
 
 ## Author
