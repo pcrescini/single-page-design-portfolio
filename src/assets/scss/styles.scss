@@ -189,6 +189,21 @@
   }
 }
 
+.skip-nav {
+  position: absolute;
+  left: 45%;
+  transform: translateY(-200%);
+  background-color: $galactic-blue;
+  color: $text-color-light;
+  padding: 10px;
+  transition: $global-transition;
+  z-index: 500;
+}
+
+.skip-nav:focus {
+  transform: translateY(0%);
+}
+
 header {
   display: flex;
   align-items: center;

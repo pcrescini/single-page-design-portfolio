@@ -16,6 +16,13 @@ button {
       border: 1px solid $primary-border-hover;
       background-color: $primary-hover;
     }
+
+    &:focus {
+      border: 1px solid $primary-border-hover;
+      background-color: $primary-hover;
+      outline: dashed $light-red;
+      outline-offset: 2px;
+    }
   }
 
   &.secondary {
@@ -25,6 +32,13 @@ button {
     &:hover {
       border: 1px solid $secondary-border-hover;
       background-color: $secondary-hover;
+    }
+
+    &:focus {
+      border: 1px solid $secondary-border-hover;
+      background-color: $secondary-hover;
+      outline: dashed $light-red;
+      outline-offset: 2px;
     }
   }
 }
